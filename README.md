@@ -117,4 +117,14 @@ classDiagram
     Product "1" -- "many" Review : receives >
 
     Order "1" -- "many" OrderItem : contains >
+```
+---
+## Technologies Used
+- Java 21
+- Spring Boot
+- Spring Data JPA
+- Spring Security (JWT Authentication)
+- PostgreSQL
+- Lombok
+- BCrypt (for password encryption)
 
